@@ -37,7 +37,8 @@ background-repeat: no-repeat;
 }
 .semlog > a{
     transition: 1s;
-
+text-decoration: none;
+color:rgb(2, 37, 153);
 }
 .semlog > a:hover{
 
@@ -49,10 +50,57 @@ background-repeat: no-repeat;
     font-size: 40px;
     display: flex;
     justify-content: center;
+    color:rgb(2, 37, 153);
 }
-.android{
-    background-image: url('playstore.jpg');
-    height: 700px;
-    width: 700px;
+.play > label{
+    background-color: rgb(252, 252, 40);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 1s;
 
+}
+.play > label:hover{
+    background-color: rgb(252, 252, 40);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 110%;
+    transition: 1s;
+}
+.android {
+    height: 120px;
+    width: 120px;
+    border-radius: 30%;
+}
+.apple{
+    height: 145px;
+    width: 145px;
+    border-radius: 30%;
+    transition: 1s;
+}
+.apple:hover{
+    height: 165px;
+    width: 165px;
+    border-radius: 30%;
+    transition: 1s;
+}
+.android:hover{
+    height: 140px;
+    width: 140px;
+    border-radius: 30%;
+    transition: 1s;
+}
+
+main > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
