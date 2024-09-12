@@ -1,0 +1,134 @@
+/* Oculta o checkbox padrão */
+#dropdown-toggle {
+    display: none;
+}
+
+/* Estilos para o botão do dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: rgb(252, 252, 40);
+    color:rgb(2, 37, 153);
+    padding: 25px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20PX;
+}
+
+/* Conteúdo do dropdown (escondido por padrão) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 100PX;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilo dos links ao passar o mouse */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mostrar o dropdown quando o checkbox estiver marcado */
+#dropdown-toggle:checked + .dropdown-btn + .dropdown-content {
+    display: block;
+}
+
+#drop1{
+    background-color: rgb(31, 214, 214);
+    transition: 0.2s;
+}
+#drop2{
+    background-color: #3cff00;
+    transition: 0.2s;
+}
+#drop3{
+    background-color: #008cff;
+    transition: 0.2s;
+}
+#drop4{
+    background-color: #a200ff;
+    transition: 0.2s;
+}
+#drop5{
+    background-color: #ff1100;
+    transition: 0.2s;
+}
+#drop6{
+    background-color: #fffb00;
+    transition: 0.2s;
+}
+#drop1:hover{
+    background-color: rgba(31, 214, 214, 0.493);
+    transition: 0.2s;
+}
+#drop2:hover{
+    background-color: #3dfa0475;
+    transition: 0.2s;
+}
+#drop3:hover{
+    background-color: #008cff79;
+    transition: 0.2s;
+}
+#drop4:hover{
+    background-color: #a200ff75;
+    transition: 0.2s;
+}
+#drop5:hover{
+    background-color: #ff110065;
+    transition: 0.2s;
+}
+#drop6:hover{
+    background-color: #fffb006e;
+    transition: 0.2s;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 6%;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 140px;
+    
+}
+#shelly{
+    background-image: url('shelly.webp');
+
+}
+
+.escrita{
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    height: 70px;
+    font-size: 50px;
+    padding-top: px;
+    color:rgb(251, 255, 0);
+}
