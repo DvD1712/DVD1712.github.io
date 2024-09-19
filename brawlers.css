@@ -98,14 +98,29 @@
     transition: 0.2s;
 }
 .card{
+    background-image: url('fundoazul.jpg');
     width: 250px;
     height: 250px;
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: flex-start;
     border-radius: 6%;
+    justify-content: flex-end;
+    flex-direction: column;
+
     overflow: hidden;
+}
+
+.personagem{
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.personagem > img{
+    height: 170px;
 }
 
 .container{
@@ -116,19 +131,20 @@
     gap: 140px;
     
 }
-#shelly{
-    background-image: url('shelly.webp');
 
-}
 
 .escrita{
     background-color: rgba(0, 0, 0, 0.425);
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 180px;
+
     height: 70px;
     font-size: 50px;
-    padding-top: px;
     color:rgb(251, 255, 0);
+}
+.cardes{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
 }
